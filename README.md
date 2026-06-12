@@ -1,18 +1,158 @@
-# React + Vite
+# PulseHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Corporate Intranet Platform
 
-Currently, two official plugins are available:
+PulseHub is a modern corporate intranet platform designed to improve communication, visibility, employee engagement, recognition, and knowledge sharing across the organization.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The platform acts as a centralized engagement layer that brings together leadership communication, company updates, employee recognition, community discussions, events, and knowledge resources into a single experience.
 
-## React Compiler
+---
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Key Objectives
 
-Note: This will impact Vite dev & build performances.
+* Improve organizational transparency
+* Increase employee engagement
+* Strengthen recognition culture
+* Promote cross-functional visibility
+* Provide a centralized knowledge repository
+* Create a scalable foundation for future integrations
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Modules Implemented
+
+### Dashboard
+
+* Executive overview
+* Leadership spotlight
+* Announcements
+* Recognition feed
+* Department impact
+* Engagement analytics
+* Events widget
+
+### Leadership Center
+
+* Executive spotlight
+* Leadership messages
+* Strategic priorities
+* Quarterly roadmap
+* Leadership outcomes
+* Ask Leadership
+
+### Recognition Hub
+
+* Peer appreciation
+* Achievement spotlight
+* Employee stories
+* Celebration feed
+* Hall of fame
+* Recognition leaderboard
+
+### Knowledge Hub
+
+* Policies
+* Handbooks
+* Learning resources
+* Templates
+* Search & filtering
+* Featured resources
+
+### Community Forum
+
+* Discussions
+* Category filtering
+* Trending topics
+* Active contributors
+* Moderation overview
+
+### Media Gallery
+
+* Event albums
+* Image gallery
+* Video gallery
+* Featured albums
+* Recent highlights
+
+---
+
+## Technology Stack
+
+Frontend:
+
+* React
+* React Router
+
+State Management:
+
+* Redux Toolkit
+* Zustand (UI state where applicable)
+
+Styling:
+
+* Tailwind CSS
+
+Charts:
+
+* Recharts
+
+Architecture:
+
+* Feature Based Architecture
+
+Data Layer:
+
+* Mock API Services
+
+Deployment:
+
+* Vercel
+
+---
+
+## Architecture
+
+The application follows a feature-based architecture to improve scalability, maintainability, and future backend integration.
+
+Each feature owns:
+
+* Components
+* Pages
+* Redux Slice
+* Hooks
+* Feature-specific data
+
+Shared functionality is centralized under shared/.
+
+---
+
+## AI Assisted Development
+
+AI was used to accelerate:
+
+* Initial component scaffolding
+* Layout generation
+* Mock data generation
+* Documentation generation
+
+Engineering decisions, architecture refinement, UI improvements, state management integration, and requirement mapping were manually reviewed and adjusted.
+
+Detailed prompting history and corrections are available in:
+
+* docs/prompts.md
+* docs/ai-outputs.md
+* docs/corrections.md
+
+---
+
+## Deployment
+
+Live URL:
+
+[https://corporate-intranet-blond.vercel.app/]
+
+---
+
+## Video Walkthrough
+
+[Add Video Link]
